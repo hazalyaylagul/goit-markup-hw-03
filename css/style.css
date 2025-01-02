@@ -135,8 +135,8 @@ button {
   display: flex;
   gap: 24px;
 }
-.list-item:first-child {
-  width: calc((100% - 72px) / 4);
+.section-two-list > .list-item:first-child {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .list-item > .list-title {
