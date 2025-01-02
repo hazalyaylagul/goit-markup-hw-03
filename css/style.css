@@ -80,6 +80,7 @@ button {
 
 .section-one {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .section-title {
@@ -88,15 +89,23 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 .section-button {
-  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .section-button:hover {
   background-color: #404bbf;
