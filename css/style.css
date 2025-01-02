@@ -283,3 +283,6 @@ button {
   display: flex;
   gap: 40px;
 }
+.visually-hidden {
+  display: none;
+}
