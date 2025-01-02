@@ -127,6 +127,23 @@ button {
   color: #434455;
 }
 
+.section-two {
+  padding: 120px 0;
+}
+.visually-hidden {
+  display: none;
+}
+.section-two-list {
+  display: flex;
+  gap: 24px;
+}
+.list-item:first-child {
+  width: calc((100% - 72px) / 4);
+}
+
+.list-item > .list-title {
+  margin-bottom: 8px;
+}
 .section-three {
   background-color: #f4f4fd;
 }
