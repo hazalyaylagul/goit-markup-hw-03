@@ -42,6 +42,9 @@ button {
 .logo_studio {
   color: #2e2f42;
 }
+img {
+  display: block;
+}
 
 .item_one {
   font-weight: 500;
