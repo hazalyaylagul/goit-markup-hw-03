@@ -37,6 +37,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo_studio {
   color: #2e2f42;
@@ -54,6 +55,9 @@ button {
 }
 .item_one:focus {
   color: #404bbf;
+}
+.item_one:first-child {
+  padding: 24px 0;
 }
 
 .header-right {
@@ -197,4 +201,12 @@ button {
 .header-left {
   display: flex;
   align-items: center;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+.header-right-list {
+  display: flex;
+  gap: 40px;
 }
